@@ -1,48 +1,47 @@
 Nebiyu's Personal CV Website
 ----------------------------
 
-📁 Project Structure:
----------------------
-This project is a basic HTML website that serves as a personal CV/resume for Nebiyu Samuel. 
-It includes 3 HTML pages and an optional image (linked from GitHub).
+Project Description:
+--------------------
+This is a basic HTML website that serves as a personal CV (Curriculum Vitae) for Nebiyu Samuel. 
+It includes three pages: a main CV page, a hobbies page, and a contact page.
 
-Files:
-------
-
+File Structure:
+---------------
 1. index.html
    - Main page of the website.
-   - Displays a profile picture, name, education history, skills, and links to other pages.
-   - Profile image is loaded from GitHub (online source).
-   - Contains links to "Hobbies" and "Contact" pages.
+   - Displays a profile picture, name, education, skills, and links to other pages.
+   - The profile picture is currently loaded from an online GitHub link.
+   - Contains links to hobbies.html and contacts.html.
 
 2. hobbies.html
-   - A simple page listing Nebiyu's hobbies using an ordered list.
+   - A short page listing hobbies in an ordered list.
 
 3. contacts.html
-   - Contains personal contact information.
-   - Includes a basic contact form that uses the `mailto:` action to send emails.
-   - Note: The form may not work on all browsers unless an email client is set up.
+   - Contains personal contact information (email, phone, GitHub).
+   - Includes a basic form that uses "mailto:" to send messages directly through an email client.
+   - The form may not work unless the user has a default email client set up.
 
-🌐 How to View:
----------------
-1. Open the `index.html` file in your web browser.
-2. Use the links at the bottom to navigate to the Hobbies or Contact page.
+How to Open the Website:
+------------------------
+1. Open index.html in any web browser.
+2. Click the links at the bottom to visit the Hobbies or Contact pages.
 
-🖼️ Images:
-----------
-- The profile image is loaded from:
-  https://raw.githubusercontent.com/charismatic-design/My-Personal-CV/refs/heads/main/Images/pfp.PNG
+Image Information:
+------------------
+The profile picture is loaded from this URL:
+https://raw.githubusercontent.com/charismatic-design/My-Personal-CV/refs/heads/main/Images/pfp.PNG
 
-  If you'd like to store the image locally instead:
-  - Create a folder named `Images`
-  - Save the image as `pfp.PNG` inside it
-  - Update the `<img src="...">` tag in `index.html` to:
-    `src="Images/pfp.PNG"`
+If you prefer to use a local image instead:
+- Create a folder named "Images"
+- Save the image inside it as "pfp.PNG"
+- In index.html, change the image tag to:
+  <img src="Images/pfp.PNG" ...>
 
-✅ Notes:
---------
-- No CSS or JavaScript is used in this version – it's all pure HTML.
-- Project created as part of learning HTML from "The Complete Web Development Bootcamp" by Dr. Angela Yu.
-- Good early practice in structuring a multi-page HTML site!
+Additional Notes:
+-----------------
+- This project uses only HTML (no CSS or JavaScript yet).
+- Created as part of learning from "The Complete Web Development Bootcamp" by Dr. Angela Yu.
+- Simple structure, good for practicing multi-page HTML layout.
 
-Created by: Nebiyu Samuel
+Author: Nebiyu Samuel
